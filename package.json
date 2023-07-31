@@ -1,0 +1,39 @@
+{
+  "name": "wallet-system",
+  "version": "1.0.0",
+  "description": "Wallet system using Node.js and MongoDB",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "nodemon src/server.ts",
+    "build": "tsc",
+    "prestart": "npm run build",
+    "test": "echo \"No tests available\""
+  },
+  "keywords": [
+    "wallet",
+    "nodejs",
+    "mongodb",
+    "typescript"
+  ],
+  "author": "Akanwealth",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.13",
+    "@types/mongoose": "^6.1.0",
+    "@types/node": "^16.3.2",
+    "@types/uuid": "^9.0.2",
+    "dotenv": "^16.3.1",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}

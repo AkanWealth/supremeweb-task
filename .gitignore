@@ -1,0 +1,21 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore logs
+logs/
+
+# Ignore npm-debug.log
+npm-debug.log
+
+# Ignore .env file (if used to store environment variables)
+.env
+
+# Ignore build output
+build/
+
+# Ignore coverage reports (if using test coverage)
+coverage/
+.nyc_output/
+
+# Ignore .DS_Store files (for macOS users)
+.DS_Store
